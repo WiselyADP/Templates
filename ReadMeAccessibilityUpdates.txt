@@ -14,6 +14,8 @@ Accessibility updates as of 10/10/23
 •  Twitter logo will be updated on 10/25 along with the website
 •  Click here in the footer updated to be more descriptive.  (Visit myWisely.com for more information.)
 •  Dark mode meta tags added 
+•  P tag added to outlook body styles
+
 
 
 
