@@ -585,19 +585,7 @@ END SOCIAL- HIDE WHEN NOT IN SFMC -->
      <p>&nbsp;</p>
      <p>3. The Wisely card is a prepaid card. References to a digital account refer to the management and servicing of your prepaid card online digitally or through a mobile app. The Wisely card is not a credit card and does not build credit.</p>
        <p>&nbsp;</p>
-
-<!-- START BANKISSUER STATMENT - HIDE WHEN IN SFMC -->
-
-<span class="defaultlink font_white" align="left" valign="top" style="font-family: 'Foco', 'Calibri', 'Trebuchet MS', Arial, sans-serif; color: #54565A; font-size: 11px; font-weight: 400; letter-spacing: 1px; line-height: 15px; text-align: left; padding-bottom:15px;">
-     %%[IF @cardType == "MC" AND @customerType == "Wisely Pay"  THEN]%% 
-      <p>The Wisely Pay Mastercard® is issued by Fifth Third Bank, N.A., Member FDIC or Pathward®, N.A., Member FDIC, pursuant to license by Mastercard International Incorporated. The Wisely Direct Mastercard is issued by Fifth Third Bank, N.A., Member FDIC. ADP is a registered ISO of Fifth Third Bank, N.A., or Pathward, N.A. The Wisely Pay and Wisely Direct Mastercard can be used where Debit Mastercard is accepted. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>
-     %%[ELSEIF @cardType == "MC" AND @customerType == "Wisely Direct" THEN]%%
-      <p>The Wisely Pay Mastercard® is issued by Fifth Third Bank, N.A., Member FDIC or Pathward®, N.A., Member FDIC, pursuant to license by Mastercard International Incorporated. The Wisely Direct Mastercard is issued by Fifth Third Bank, N.A., Member FDIC. ADP is a registered ISO of Fifth Third Bank, N.A., or Pathward, N.A. The Wisely Pay and Wisely Direct Mastercard can be used where Debit Mastercard is accepted. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>
-     %%[ELSE]%%
-      <p>The Wisely Pay Visa® is issued by Fifth Third Bank, N.A., Member FDIC or Pathward®, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. ADP is a registered ISO of Fifth Third Bank, N.A., or Pathward, N.A. The Wisely Pay Visa card can be used everywhere Visa debit cards are accepted. Visa and the Visa logo are registered trademarks of Visa International Service Association.</p>
-     %%[ENDIF]%%
-      </span>    
-<!-- END BANKISSUER STATMENT - HIDE WHEN IN SFMC -->   
+<p style="color:magenta">«Bank issuer statement goes here.»</p>   
     
 <!-- START BANKISSUER STATMENT - HIDE WHEN NOT IN SFMC 
      <p>%%=ContentBlockbyKey("BISDynamicWP_WDEmails")=%%</p> 
